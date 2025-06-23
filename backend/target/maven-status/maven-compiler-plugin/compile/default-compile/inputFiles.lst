@@ -1,0 +1,14 @@
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\controller\TimetableController.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\model\Timetable.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\TimetableBackendApplication.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\repository\TimetableRepository.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\model\Room.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\config\WebConfig.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\repository\SectionRepository.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\service\TimetableService.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\model\Section.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\model\Timeslot.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\repository\TimeslotRepository.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\repository\FacultyRepository.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\model\Faculty.java
+D:\College\spring_project\time_table_generator\backend\src\main\java\com\timetable\repository\RoomRepository.java
