@@ -1,0 +1,40 @@
+Database Description
+This project uses a relational database to store information about faculties, rooms, sections, timeslots, and generated timetables.
+Tables & Fields
+
+  1. Faculty
+id	Long	Primary key
+name	String	Faculty member's name
+preferredDays	String	(Optional) Comma-separated preferred days (e.g., "Monday,Wednesday")
+
+  2. Room
+id	Long	Primary key
+name	String	Room name or number
+type	String	Room type (e.g., "CR", "LT")
+capacity	Integer	Number of seats
+
+  3. Section
+id	Long	Primary key
+name	String	Section name (e.g., "A", "B")
+studentCount	Integer	Number of students in section
+
+  4. Timeslot
+id	Long	Primary key
+day	String	Day of the week (e.g., "Monday")
+startTime	String	Start time (e.g., "09:00")
+endTime	String	End time (e.g., "10:00")
+  
+
+  5. Timetable
+id	Long	Primary key
+subject	String	Subject name
+faculty_id	Long	Foreign key to Faculty
+room_id	Long	Foreign key to Room
+section_id	Long	Foreign key to Section
+timeslot_id	Long	Foreign key to Timeslot
+  
+Relationships
+Timetable references Faculty, Room, Section, and Timeslot via foreign keys.
+Each Section can have multiple timetable entries.
+Each Faculty can be assigned to multiple timetable entries.
+Each Room and Timeslot can be used in multiple timetable entries, but not at the same time for different lectures.
